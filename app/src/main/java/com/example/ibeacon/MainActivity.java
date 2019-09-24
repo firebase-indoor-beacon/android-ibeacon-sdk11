@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int a = 1;
     }
     public void onMonitoringClicked(View view) {
         Intent myIntent = new Intent(this, MonitoringActivity.class);
